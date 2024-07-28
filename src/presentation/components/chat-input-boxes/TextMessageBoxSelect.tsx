@@ -25,6 +25,7 @@ export const TextMessageBoxSelect = ({
     e.preventDefault();
 
     if (message.trim().length === 0) return;
+    if (selectedOption === "") return;
 
     onsubmitMessage(message, selectedOption);
     setMessage("");
