@@ -1,4 +1,4 @@
-import { ProsConsResponse } from "../../interfaces";
+import { ProsConsResponse } from "../../../interfaces";
 
 export const prosConsUseCases = async (prompt: string) => {
   try {
