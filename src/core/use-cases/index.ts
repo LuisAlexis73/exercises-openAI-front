@@ -6,3 +6,4 @@ export * from "./translate/translate.use-case";
 export * from "./text-audio/text-to-audio.use-case";
 export * from "./assistant/create-thread.use-case";
 export * from "./assistant/post-question.use-case";
+export * from "./audio-to-text/audio-to-text.use-case";
